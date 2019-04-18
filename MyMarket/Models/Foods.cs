@@ -22,6 +22,9 @@ namespace MyMarket.Models
         public DateTime ProductionDate { get; set; }
         [Display(Name = "Expiry Date ")]
         public DateTime ExpiryDate { get; set; }
+        [Display(Name = "  Food Name")]
+        public string FoodName { get; set; }
+
 
 
 
